@@ -1,0 +1,337 @@
+Id_Entity;Code;Entity;Lat;Long
+0;AFG;Afghanistan;33.94;67.71
+1;Africa;Africa;0.0;0.0
+2;BP;Africa (BP);0.0;0.0
+3;Shift;Africa (Shift);0.0;0.0
+4;ALB;Albania;41.15;20.17
+5;DZA;Algeria;28.03;1.66
+6;ASM;American Samoa;-14.27;-170.13
+7;AGO;Angola;-11.2;17.87
+8;ATA;Antarctica;0.0;0.0
+9;ATG;Antigua and Barbuda;0.0;0.0
+10;ARG;Argentina;-38.42;-63.62
+11;ARM;Armenia;40.07;45.04
+12;ABW;Aruba;12.52;-69.97
+13;Asia;Asia;0.0;0.0
+14;;CO2_emission;0.0;0.0
+15;BP;Asia Pacific (BP);0.0;0.0
+16;Shift;Asia and Oceania (Shift);0.0;0.0
+17;AUS;Australia;-25.27;133.78
+18;EIA;Australia and New Zealand (EIA);0.0;0.0
+19;AUT;Austria;47.52;14.55
+20;AZE;Azerbaijan;40.14;47.58
+21;BHS;Bahamas;0.0;0.0
+22;BHR;Bahrain;25.93;50.64
+23;BGD;Bangladesh;23.68;90.36
+24;BRB;Barbados;13.19;-59.54
+25;BLR;Belarus;53.71;27.95
+26;BEL;Belgium;50.5;4.47
+27;BLZ;Belize;17.19;-88.5
+28;BEN;Benin;9.31;2.32
+29;BMU;Bermuda;32.32;-64.76
+30;BTN;Bhutan;27.51;90.43
+31;BOL;Bolivia;-16.29;-63.59
+32;BIH;Bosnia and Herzegovina;0.0;0.0
+33;BWA;Botswana;-22.33;24.68
+34;BRA;Brazil;-14.24;-51.93
+35;VGB;British Virgin Islands;18.42;-64.64
+36;BRN;Brunei;4.54;114.73
+37;BGR;Bulgaria;42.73;25.49
+38;BFA;Burkina Faso;12.24;-1.56
+39;BDI;Burundi;-3.37;29.92
+40;BP;CIS (BP);0.0;0.0
+41;KHM;Cambodia;12.57;104.99
+42;CMR;Cameroon;7.37;12.35
+43;CAN;Canada;56.13;-106.35
+44;CPV;Cabo Verde;16.0;-24.01
+45;CYM;Cayman Islands;19.51;-80.57
+46;EIA;Central & South America (EIA);0.0;0.0
+47;CAF;Central African Republic;6.61;20.94
+48;BP;Central America (BP);0.0;0.0
+49;Shift;Central and South America (Shift);0.0;0.0
+50;TCD;Chad;15.45;18.73
+51;CHL;Chile;-35.68;-71.54
+52;CHN;China;35.86;104.2
+53;COL;Colombia;4.57;-74.3
+54;COM;Comoros;-11.88;43.87
+55;COG;Congo;0.0;0.0
+56;COK;Cook Islands;-21.24;-159.78
+57;CRI;Costa Rica;9.75;-83.75
+58;CIV;Cote DIvoire;0.0;0.0
+59;HRV;Croatia;45.1;15.2
+60;CUB;Cuba;21.52;-77.78
+61;CYP;Cyprus;35.13;33.43
+62;CZE;Czechoslovakia;0.0;0.0
+63;DNK;Denmark;56.26;9.5
+64;DJI;Djibouti;11.83;42.59
+65;DMA;Dominica;15.41;-61.37
+66;DOM;Dominican Republic;18.74;-70.16
+67;Shift;EU28 (Shift);0.0;0.0
+68;EIA;East Germany (EIA);0.0;0.0
+69;BP;Eastern Africa (BP);0.0;0.0
+70;ECU;Ecuador;-1.83;-78.18
+71;EGY;Egypt;26.82;30.8
+72;SLV;El Salvador;13.79;-88.9
+73;GNQ;Equatorial Guinea;1.65;10.27
+74;ERI;Eritrea;15.18;39.78
+75;EST;Estonia;58.6;25.01
+76;SWZ;Eswatini;0.0;0.0
+77;ETH;Ethiopia;9.15;40.49
+78;EIA;Eurasia (EIA);0.0;0.0
+79;Shift;Eurasia (Shift);0.0;0.0
+80;Europe;Europe;0.0;0.0
+81;BP;Europe (BP);0.0;0.0
+82;Shift;Europe (Shift);0.0;0.0
+83;EIA27;European Union (27);0.0;0.0
+84;EIA;European Union (EIA);0.0;0.0
+85;FRO;Faeroe Islands;0.0;0.0
+86;FLK;Falkland Islands;-51.8;-59.52
+87;FJI;Fiji;-16.58;179.41
+88;FIN;Finland;61.92;25.75
+89;FRA;France;46.23;2.21
+90;GUF;French Guiana;3.93;-53.13
+91;PYF;French Polynesia;-17.68;-149.41
+92;Ember;G20 (Ember);0.0;0.0
+93;Ember;G7 (Ember);0.0;0.0
+94;GAB;Gabon;-0.8;11.61
+95;GMB;Gambia;13.44;-15.31
+96;GEO;Georgia;42.32;43.36
+97;DEU;Germany;51.17;10.45
+98;GHA;Ghana;7.95;-1.02
+99;GIB;Gibraltar;36.14;-5.35
+100;GRC;Greece;39.07;21.82
+101;GRL;Greenland;71.71;-42.6
+102;GRD;Grenada;12.26;-61.6
+103;GLP;Guadeloupe;17.0;-62.07
+104;GUM;Guam;13.44;144.79
+105;GTM;Guatemala;15.78;-90.23
+106;GIN;Guinea;9.95;-9.7
+107;GNB;Guinea-Bissau;11.8;-15.18
+108;GUY;Guyana;4.86;-58.93
+109;HTI;Haiti;18.97;-72.29
+110;EIA;Hawaiian Trade Zone (EIA);0.0;0.0
+111;HIC;High-income countries;0.0;0.0
+112;HND;Honduras;15.2;-86.24
+113;HKG;Hong Kong;22.4;114.11
+114;HUN;Hungary;47.16;19.5
+115;EIA;IEO - Africa (EIA);0.0;0.0
+116;EIA;IEO - Middle East (EIA);0.0;0.0
+117;EIA;IEO OECD - Europe (EIA);0.0;0.0
+118;ISL;Iceland;64.96;-19.02
+119;Shift;Inde (Shift);0.0;0.0
+120;IND;India;20.59;78.96
+121;IDN;Indonesia;-0.79;113.92
+122;IRN;Iran;32.43;53.69
+123;IRQ;Iraq;33.22;43.68
+124;IRL;Ireland;53.41;-8.24
+125;ISR;Israel;31.05;34.85
+126;ITA;Italy;41.87;12.57
+127;JAM;Jamaica;18.11;-77.3
+128;JPN;Japan;36.2;138.25
+129;JOR;Jordan;30.59;36.24
+130;KAZ;Kazakhstan;48.02;66.92
+131;KEN;Kenya;-0.02;37.91
+132;KIR;Kiribati;-3.37;-168.73
+133;OWID_KOS;Kosovo;42.6;20.9
+134;KWT;Kuwait;29.31;47.48
+135;KGZ;Kyrgyzstan;41.2;74.77
+136;LAO;Laos;19.86;102.5
+137;Ember;Latin America and Caribbean (Ember);0.0;0.0
+138;LVA;Latvia;56.88;24.6
+139;LBN;Lebanon;33.85;35.86
+140;LSO;Lesotho;-29.61;28.23
+141;LBR;Liberia;6.43;-9.43
+142;LBY;Libya;26.34;17.23
+143;LTU;Lithuania;55.17;23.88
+144;LIC;Low-income countries;0.0;0.0
+145;LMIC;Lower-middle-income countries;0.0;0.0
+146;LUX;Luxembourg;49.82;6.13
+147;MAC;Macao;0.0;0.0
+148;MDG;Madagascar;-18.77;46.87
+149;MWI;Malawi;-13.25;34.3
+150;MYS;Malaysia;4.21;101.98
+151;MDV;Maldives;3.2;73.22
+152;MLI;Mali;17.57;-4.0
+153;MLT;Malta;35.94;14.38
+154;MTQ;Martinique;14.64;-61.02
+155;MRT;Mauritania;21.01;-10.94
+156;MUS;Mauritius;-20.35;57.55
+157;MEX;Mexico;23.63;-102.55
+158;FSM;Micronesia;0.0;0.0
+159;BP;Middle Africa (BP);0.0;0.0
+160;BP;Middle East (BP);0.0;0.0
+161;EIA;Middle East (EIA);0.0;0.0
+162;Ember;Middle East (Ember);0.0;0.0
+163;Shift;Middle East (Shift);0.0;0.0
+164;MDA;Moldova;47.41;28.37
+165;MNG;Mongolia;46.86;103.85
+166;MNE;Montenegro;42.71;19.37
+167;MSR;Montserrat;16.74;-62.19
+168;MAR;Morocco;31.79;-7.09
+169;MOZ;Mozambique;-18.67;35.53
+170;MMR;Burma;0.0;0.0
+171;NAM;Namibia;-22.96;18.49
+172;NRU;Nauru;-0.52;166.93
+173;NPL;Nepal;28.39;84.12
+174;NLD;Netherlands;52.13;5.29
+175;ANT;Netherlands Antilles;12.23;-69.06
+176;NCL;New Caledonia;-20.9;165.62
+177;NZL;New Zealand;-40.9;174.89
+178;NIC;Nicaragua;12.87;-85.21
+179;NER;Niger;17.61;8.08
+180;NGA;Nigeria;9.08;8.68
+181;NIU;Niue;-19.05;-169.87
+182;BP;Non-OECD (BP);0.0;0.0
+183;EIA;Non-OECD (EIA);0.0;0.0
+184;EIA;Non-OPEC (EIA);0.0;0.0
+185;NorAmeri;North America;0.0;0.0
+186;BP;North America (BP);0.0;0.0
+187;Shift;North America (Shift);0.0;0.0
+188;PRK;North Korea;40.34;127.51
+189;MKD;Macedonia;0.0;0.0
+190;MNP;Northern Mariana Islands;17.33;145.38
+191;NOR;Norway;60.47;8.47
+192;BP;OECD (BP);0.0;0.0
+193;EIA;OECD (EIA);0.0;0.0
+194;Ember;OECD (Ember);0.0;0.0
+195;Shift;OECD (Shift);0.0;0.0
+196;EIA;OECD - Asia And Oceania (EIA);0.0;0.0
+197;EIA;OECD - Europe (EIA);0.0;0.0
+198;EIA;OECD - North America (EIA);0.0;0.0
+199;EIA;OPEC (EIA);0.0;0.0
+200;Shift;OPEC (Shift);0.0;0.0
+201;EIA;OPEC - Africa (EIA);0.0;0.0
+202;EIA;OPEC - South America (EIA);0.0;0.0
+203;Oceania;Oceania;0.0;0.0
+204;OMN;Oman;21.51;55.92
+205;BP;Other Africa (BP);0.0;0.0
+206;BP;Other Asia Pacific (BP);0.0;0.0
+207;BP;Other CIS (BP);0.0;0.0
+208;BP;Other Caribbean (BP);0.0;0.0
+209;BP;Other Eastern Africa (BP);0.0;0.0
+210;BP;Other Europe (BP);0.0;0.0
+211;BP;Other Middle Africa (BP);0.0;0.0
+212;BP;Other Middle East (BP);0.0;0.0
+213;EIA;Other Non-OECD - America (EIA);0.0;0.0
+214;EIA;Other Non-OECD - Asia (EIA);0.0;0.0
+215;EIA;Other Non-OECD - Europe and Eurasia (EIA);0.0;0.0
+216;BP;Other Northern Africa (BP);0.0;0.0
+217;BP;Other South America (BP);0.0;0.0
+218;BP;Other South and Central America (BP);0.0;0.0
+219;BP;Other Southern Africa (BP);0.0;0.0
+220;BP;Other Western Africa (BP);0.0;0.0
+221;PAK;Pakistan;30.38;69.35
+222;PSE;Palestine;0.0;0.0
+223;PAN;Panama;8.54;-80.78
+224;PNG;Papua New Guinea;-6.31;143.96
+225;PRY;Paraguay;-23.44;-58.44
+226;EIA;Persian Gulf (EIA);0.0;0.0
+227;Shift;Persian Gulf (Shift);0.0;0.0
+228;PER;Peru;-9.19;-75.02
+229;PHL;Philippines;12.88;121.77
+230;POL;Poland;51.92;19.15
+231;PRT;Portugal;39.4;-8.22
+232;PRI;Puerto Rico;18.22;-66.59
+233;QAT;Qatar;25.35;51.18
+234;REU;Reunion;-21.12;55.54
+235;ROU;Romania;45.94;24.97
+236;RUS;Russia;61.52;105.32
+237;RWA;Rwanda;-1.94;29.87
+238;SHN;Saint Helena;-24.14;-10.03
+239;KNA;Saint Kitts and Nevis;0.0;0.0
+240;LCA;Saint Lucia;13.91;-60.98
+241;SPM;Saint Pierre and Miquelon;0.0;0.0
+242;VCT;Saint Vincent/Grenadines;0.0;0.0
+243;WSM;Samoa;-13.76;-172.1
+244;STP;Sao Tome and Principe;0.0;0.0
+245;SAU;Saudi Arabia;23.89;45.08
+246;SEN;Senegal;14.5;-14.45
+247;SRB;Serbia;44.02;21.01
+248;SAM;Serbia and Montenegro;0.0;0.0
+249;SYC;Seychelles;-4.68;55.49
+250;SLE;Sierra Leone;8.46;-11.78
+251;SGP;Singapore;1.35;103.82
+252;SVK;Slovakia;48.67;19.7
+253;SVN;Slovenia;46.15;15.0
+254;SLB;Solomon Islands;-9.65;160.16
+255;SOM;Somalia;5.15;46.2
+256;ZAF;South Africa;-30.56;22.94
+257;SurAmeri;South America;0.0;0.0
+258;KOR;South Korea;35.91;127.77
+259;EIA;South Korea and other OECD Asia (EIA);0.0;0.0
+260;SSD;South Sudan;0.0;0.0
+261;BP;South and Central America (BP);0.0;0.0
+262;ESP;Spain;40.46;-3.75
+263;LKA;Sri Lanka;7.87;80.77
+264;SDN;Sudan;12.86;30.22
+265;SUR;Suriname;3.92;-56.03
+266;SWE;Sweden;60.13;18.64
+267;CHE;Switzerland;46.82;8.23
+268;SYR;Syria;34.8;39.0
+269;TWN;Taiwan;23.7;120.96
+270;TJK;Tajikistan;38.86;71.28
+271;TZA;Tanzania;-6.37;34.89
+272;THA;Thailand;15.87;100.99
+273;TLS;Timor;0.0;0.0
+274;TGO;Togo;8.62;0.82
+275;TON;Tonga;-21.18;-175.2
+276;BP;Total Non-OPEC (BP);0.0;0.0
+277;BP;Total OPEC (BP);0.0;0.0
+278;TTO;Trinidad and Tobago;0.0;0.0
+279;TUN;Tunisia;33.89;9.54
+280;TUR;Turkey;38.96;35.24
+281;TKM;Turkmenistan;38.97;59.56
+282;TCA;Turks and Caicos Islands;0.0;0.0
+283;TUV;Tuvalu;-7.11;177.65
+284;EIA;U.S. Pacific Islands (EIA);0.0;0.0
+285;Shift;U.S. Pacific Islands (Shift);0.0;0.0
+286;EIA;U.S. Territories (EIA);0.0;0.0
+287;Shift;U.S. Territories (Shift);0.0;0.0
+288;USSR;USSR;0.0;0.0
+289;UGA;Uganda;1.37;32.29
+290;UKR;Ukraine;48.38;31.17
+291;ARE;United Arab Emirates;23.42;53.85
+292;GBR;United Kingdom;55.38;-3.44
+293;USA;United States;0.0;0.0
+294;VIR;United States Virgin Islands;0.0;0.0
+295;UMIC;Upper-middle-income countries;0.0;0.0
+296;URY;Uruguay;-32.52;-55.77
+297;UZB;Uzbekistan;41.38;64.59
+298;VUT;Vanuatu;-15.38;166.96
+299;VEN;Venezuela;6.42;-66.59
+300;VNM;Vietnam;14.06;108.28
+301;EIA;Wake Island (EIA);0.0;0.0
+302;Shift;Wake Island (Shift);0.0;0.0
+303;EIA;West Germany (EIA);0.0;0.0
+304;BP;Western Africa (BP);0.0;0.0
+305;ESH;Western Sahara;24.22;-12.89
+306;OWID_WRL;World;0.0;0.0
+307;YEM;Yemen;15.55;48.52
+308;OWID_YGS;Yugoslavia;0.0;0.0
+309;ZMB;Zambia;-13.13;27.85
+310;ZWE;Zimbabwe;-19.02;29.15
+311;FI;Faroe Islands;61.89;-6.91
+312;;Hawaiian Trade Zone;0.0;0.0
+313;;U.S. Pacific Islands;0.0;0.0
+314;;U.S. Territories;0.0;0.0
+315;;Wake Island;0.0;0.0
+316;AND;Andorra;42.55;1.6
+317;OWID_CIS;Channel Islands;0.0;0.0
+318;CUW;Curacao;12.17;-68.99
+319;;East Asia and Pacific;0.0;0.0
+320;;Europe and Central Asia;0.0;0.0
+321;EIA;European Union;0.0;0.0
+322;IMN;Isle of Man;0.0;0.0
+323;;Latin America and Caribbean;0.0;0.0
+324;LIE;Liechtenstein;47.17;9.56
+325;LAMIC;Low and middle income;0.0;0.0
+326;MHL;Marshall Islands;7.13;171.18
+327;;Middle East and North Africa;0.0;0.0
+328;MIC;Middle income;0.0;0.0
+329;MCO;Monaco;43.75;7.41
+330;PLW;Palau;7.51;134.58
+331;MAF;Saint Martin (French part);0.0;0.0
+332;SMR;San Marino;43.94;12.46
+333;SXM;Sint Maarten (Dutch part);0.0;0.0
+334;;South Asia;0.0;0.0
+335;;Sub-Saharan Africa;0.0;0.0

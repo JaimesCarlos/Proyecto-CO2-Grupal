@@ -1,0 +1,9 @@
+personal API token: TGZn2S15VNJ7f9Sga6hcQ9IbEYiubVEo
+
+
+
+1. objetivo (que sse quiere mostrar herramienta power bi )KPI 10 (sstrelin)
+2. 
+
+
+clave postgres en postgres
