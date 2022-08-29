@@ -26,16 +26,24 @@ ALTER TABLE IF EXISTS public."ElectricityProdSourceStacked"
 -- ALTER TABLE IF EXISTS public."Energyco" DROP CONSTRAINT IF EXISTS "Energyco_pkey";
 ALTER TABLE IF EXISTS public."Energyco"
     ADD CONSTRAINT "Energyco_pkey" PRIMARY KEY ("Id_Energyco2");
+	
+-- Constraint: GeneracionPlantaYear_pkey
+-- ALTER TABLE IF EXISTS public."GeneracionPlantaYear" DROP CONSTRAINT IF EXISTS "GeneracionPlantaYear_pkey";
+ALTER TABLE IF EXISTS public."GeneracionPlantaYear"
+    ADD CONSTRAINT "GeneracionPlantaYear_pkey" PRIMARY KEY ("Id_GeneracionPlantaYear");	
 
 -- Constraint: GlobalEnergySubstitution_pkey
 -- ALTER TABLE IF EXISTS public."GlobalEnergySubstitution" DROP CONSTRAINT IF EXISTS "GlobalEnergySubstitution_pkey";
 ALTER TABLE IF EXISTS public."GlobalEnergySubstitution"
     ADD CONSTRAINT "GlobalEnergySubstitution_pkey" PRIMARY KEY ("Id_global-energy-substitution");
 
+
 -- Constraint: GlobalPowerPlantDatabase_pkey
 -- ALTER TABLE IF EXISTS public."GlobalPowerPlantDatabase" DROP CONSTRAINT IF EXISTS "GlobalPowerPlantDatabase_pkey";
 ALTER TABLE IF EXISTS public."GlobalPowerPlantDatabase"
-    ADD CONSTRAINT "GlobalPowerPlantDatabase_pkey" PRIMARY KEY ("Id_global_power_plant");
+    ADD CONSTRAINT "GlobalPowerPlantDatabase_pkey" PRIMARY KEY ("Id_planta");
+
+
 
 -- Constraint: LowCarbonShareEnergy_pkey
 -- ALTER TABLE IF EXISTS public."LowCarbonShareEnergy" DROP CONSTRAINT IF EXISTS "LowCarbonShareEnergy_pkey";
@@ -104,6 +112,14 @@ ALTER TABLE IF EXISTS public."Energyco"
     ADD CONSTRAINT "Entity" FOREIGN KEY ("Id_Entity")
     REFERENCES public."Entidades" ("Id_Entity") MATCH SIMPLE
     ON UPDATE NO ACTION
+    ON DELETE NO ACTION;
+	
+-- Constraint: Plant
+-- ALTER TABLE IF EXISTS public."GeneracionPlantaYear" DROP CONSTRAINT IF EXISTS "Plant";
+ALTER TABLE IF EXISTS public."GeneracionPlantaYear"
+    ADD CONSTRAINT "Plant" FOREIGN KEY ("Id_planta")
+    REFERENCES public."GlobalPowerPlantDatabase" ("Id_planta") MATCH SIMPLE
+    ON UPDATE NO ACTION
     ON DELETE NO ACTION;	
 
 -- Constraint: Entity
@@ -120,7 +136,9 @@ ALTER TABLE IF EXISTS public."GlobalPowerPlantDatabase"
     ADD CONSTRAINT "Entity" FOREIGN KEY ("Id_Entity")
     REFERENCES public."Entidades" ("Id_Entity") MATCH SIMPLE
     ON UPDATE NO ACTION
-    ON DELETE NO ACTION;	
+    ON DELETE NO ACTION;
+	
+	
 	
 -- Constraint: Entity
 -- ALTER TABLE IF EXISTS public."LowCarbonShareEnergy" DROP CONSTRAINT IF EXISTS "Entity";

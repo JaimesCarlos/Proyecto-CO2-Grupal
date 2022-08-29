@@ -2,6 +2,7 @@ from configuracion import CONFIG_DATASETS,DATABASE_CONFIG,ARCHIVOS,DATASETS,DATA
 import transformar as t
 from cargar import crear_db,cargar
 import pandas as pd
+import numpy as np
 
 #ENTIDADES = pd.DataFrame()
 def main():
@@ -13,12 +14,12 @@ def main():
     Entity.fillna(0, inplace=True)
     d = dict(zip(Entity['Entity'],Entity['CountryNormalizado']))
 
-    Entityfinal = pd.read_csv('.\Datasets\entidadesfinal.csv',delimiter = ';',decimal =".", encoding="UTF-8") 
+    Entityfinal = pd.read_csv('.\Datasets\Datasets_extra\entidadesfinal.csv',delimiter = ';',decimal =".", encoding="UTF-8") 
     Entityfinal.fillna({'Code': 'Sin Informacion'}, inplace=True)
     Entityfinal.fillna(0, inplace=True)
     f = dict(zip(Entityfinal['Entity'],Entityfinal['Id_Entity']))
-
-
+   
+   
     for archivo in ARCHIVOS:
         
         if archivo[-3:] != 'csv':
@@ -37,7 +38,24 @@ def main():
         
         elif archivo[:27] == 'global_power_plant_database':
             df = t.transformar_GPPD(archivo,CONFIG_DATASETS['global_power_plant_database']['sep'],CONFIG_DATASETS['global_power_plant_database']['encoding'],d,f)
-            cargar(DATABASE_CONFIG,df,'GlobalPowerPlantDatabase')
+            generation_gwh=t.generation_gwh()
+            prueba=pd.merge(Entityfinal,df,on=('Id_Entity'),how='right')
+            prueba.drop(['Entity','Code_x','Code_y','Lat','Long'],axis=1,inplace=True)
+            prueba=prueba.reindex(columns=['Id_planta','Id_Entity','name','capacity_mw','primary_fuel'])
+            prueba.fillna(0, inplace=True)
+            prueba = prueba.astype({"Id_Entity": np.dtype("int64")})
+
+            generation_gwh_id=pd.merge(prueba,generation_gwh,on=('name'),how='right')
+            generation_gwh_id=generation_gwh_id.reset_index()
+            generation_gwh_id.rename({'index':'Id_GeneracionPlantaYear'},axis=1,inplace=True)
+            generation_gwh_id=generation_gwh_id.loc[:,['Id_GeneracionPlantaYear','Id_planta','generation_gwh','year']]
+            generation_gwh_id.fillna(0,inplace=True)
+            cargar(DATABASE_CONFIG,generation_gwh_id,'GeneracionPlantaYear')
+            ruta = DATASET_NORMALIZADO+'/GeneracionPlantaYear.csv'
+            t.exportCSV(df,ruta)
+            cargar(DATABASE_CONFIG,prueba,'GlobalPowerPlantDatabase')
+            ruta = DATASET_NORMALIZADO+'/GlobalPowerPlantDatabase.csv'
+            t.exportCSV(df,ruta)
             t.exportar_archivo(DATASETS[:-1],DATASET_DESTINO,archivo,DATASET_NORMALIZADO,df)
 
         elif archivo[:30] == 'owid-energy-consumption-source':
